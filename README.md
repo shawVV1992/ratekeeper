@@ -20,9 +20,12 @@
 
 ### 快速开始
 #### 初始化数据库
+
     from ratekeeper import initialize
     initialize()
-####更新汇率数据
+
+#### 更新汇率数据
+
     from ratekeeper import update
 
 #### 更新USD和EUR的汇率
@@ -46,7 +49,7 @@
     ├── config.py             # 配置管理
     └── rates.py              # 对外统一接口
 
-### 数据存储
+#### 数据存储
 
 数据库存储位置(Windows系统)
 
