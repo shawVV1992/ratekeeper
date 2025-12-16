@@ -46,9 +46,15 @@
     ├── config.py             # 配置管理
     └── rates.py              # 对外统一接口
 
-数据存储
-数据库存储位置：Windows系统下为%LOCALAPPDATA%\ratekeeper\ratekeeper.db
-日志文件：%LOCALAPPDATA%\ratekeeper\ratekeeper_update.log
+### 数据存储
+
+数据库存储位置(Windows系统)
+
+    %LOCALAPPDATA%\ratekeeper\ratekeeper.db
+
+日志文件
+
+    %LOCALAPPDATA%\ratekeeper\ratekeeper_update.log
 
 #### 初始化（首次使用时调用一次）
     from ratekeeper import initialize
