@@ -30,6 +30,7 @@
 
 #### 默认更新USD和EUR
 项目结构
+
     ratekeeper/
     ├── __init__.py           # 包初始化
     ├── application/          # 应用服务层（对外服务封装）
